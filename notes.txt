@@ -1,0 +1,21 @@
+CMD COMMANDS (8.FEB.2025)
+dir - for lists 
+cls - clear screen
+git installation
+creating repository in git
+git clone https://github.com/RomaSantani/frontend_course.git - to clone repository locally
+ReadMe.md - file to provide project highlights md(markdown)
+git status - to check what is in the git file
+git rm --cached ReadMe.md - to remove the git file 
+git add ReadMe.md - to add file in git
+git commit -m="Added ReadMe File" - to commit the changes in git file . -m is for adding a message to the file. Why we created it?
+git push - to finally push the file in git 
+git pull - to pull remote changes
+
+
+HTML (9.FEB.2025)
+including Bootstrap - include link and script in head
+Saw some bootstrap components
+Creating css file
+Including css file in HTML
+including image in html
