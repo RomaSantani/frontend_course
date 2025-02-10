@@ -19,3 +19,10 @@ Saw some bootstrap components
 Creating css file
 Including css file in HTML
 including image in html
+
+HTML (10.FEB.2025)
+<h5 style="color: blue; font-style: italic;">Career Objective</h5> - inline style 
+making class in separate CSS File
+Creating Table in HTML (table, tr(table row), th(table head), td(table data))
+padding class (Left, right, top, Bottom) - To shift element towards the direction
+lists in HTML (ordered list (ol (1,2,3,...)), unordered list (ul (bullet points)), list creation (li))
