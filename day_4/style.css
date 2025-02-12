@@ -1,0 +1,23 @@
+.txt_clr_blue {
+    color: blue;
+    font-style: italic;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.heading_padding{
+    padding-top: 25px;
+}
