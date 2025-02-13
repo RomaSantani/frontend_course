@@ -27,3 +27,16 @@ Creating Table in HTML (table, tr(table row), th(table head), td(table data))
 padding class (Left, right, top, Bottom) - To shift element towards the direction
 lists in HTML (ordered list (ol (1,2,3,...)), unordered list (ul (bullet points)), list creation (li))
 
+Java Script (13.FEB.2025)
+selecting elements
+document.getElementById("some_id_here")
+document.getElementsByClassName("class_name_here")[0]
+document.getElementsByTagName("name_of_tag_here")[0]
+Tags can be div,p, b etc. 
+creating button using html and js
+<button type="button" onclick="document.getElementById...etc">button name</button>
+applying style using js
+document.getElementById("id_name").style="padding-top:50px; color:red;"
+innerHTML and textContent meaning and difference 
+textContent can only change text , whereas, innerHTML can help in writing new HTML inside.
+
