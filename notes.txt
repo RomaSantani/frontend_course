@@ -40,3 +40,8 @@ document.getElementById("id_name").style="padding-top:50px; color:red;"
 innerHTML and textContent meaning and difference 
 textContent can only change text , whereas, innerHTML can help in writing new HTML inside.
 
+FORMS USING HTML (14.FEB.2025)
+Input types: text, email, checkbox, password, button, submit, radio
+form includes action which can go to next page.
+including stylesheet <link rel="stylesheet" type="text/css" href="style.css" (css file name)> 
+
