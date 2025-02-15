@@ -1,0 +1,12 @@
+elements should follow bootstrap style
+Take following inputs from user: 
+a. First name of the user
+b. Last name of the user
+c. email of the user
+d. Phone number of the user
+e. Country of the user (should be in dropdown possible values: India, Germany, Australia, England, US)
+f. Gender of the user (male or female) This should be a Radio button.
+g. A checkbox (I want to subscribe?)
+h. Everything should be inside a form component, this form will have 2 buttons :
+a. Submit button to go to welcome page which should mention "Welcome to our website".
+b. Reset button , will reset the form meaning all inputs will be empty when Reset button is clicked. 

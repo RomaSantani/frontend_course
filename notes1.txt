@@ -1,0 +1,7 @@
+FORMS HTML AND BOOTSTRAP (15.FEB.2025)
+type reset <input type="reset" value="reset"> will reset the form.
+for dropdown use <select> tab with <option> including <option....> in it.
+<option selected> will select the option beforehand.
+for form label use class form-label
+for input use class form-control
+apply same name for same group of radio buttons. 
