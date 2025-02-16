@@ -5,3 +5,10 @@ for dropdown use <select> tab with <option> including <option....> in it.
 for form label use class form-label
 for input use class form-control
 apply same name for same group of radio buttons. 
+
+(16.FEB.2025) JAVASCRIPT BASICS
+function in JAVASCRIPT with and without parameters
+Operators (+,-,*,/,%,**)
+Calling a function
+logging result 
+if-else control structure
