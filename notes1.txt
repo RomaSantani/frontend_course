@@ -12,3 +12,11 @@ Operators (+,-,*,/,%,**)
 Calling a function
 logging result 
 if-else control structure
+
+(22.FEB.2025) CALCULATOR USING HTML/JS/CSS
+How to include bootstrap fonts in html
+How to align bootstrap icons and form to center
+How to include js in html file
+How to call function using onclick = "myfunction()"
+How to call function with parameter using onclick = "myfunction(includes parameters)"
+How to convert string to number using "Number(num1)"

@@ -50,4 +50,12 @@ function addWithoutConsoleLog(a,b){
     return a+b;
 }
 const addResult = addWithoutConsoleLog(3,5);
-console.log(addResult);
+//console.log(addResult);
+
+
+//multiplying 3 numbers
+function multiply(a,b,c){
+    return a*b*c;
+}
+const multiResult = multiply(4,5,5);
+console.log(multiResult);

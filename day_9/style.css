@@ -1,0 +1,15 @@
+.place_center{
+    display: flex;
+    justify-content: center; /* Align horizontally */
+    align-items: center; /* Align vertically */
+    /*height: 100vh;  Optional, for full viewport height */
+}
+
+.icon_fs{
+    font-size: 48px;
+}
+
+.padding_t{
+    padding-top: 48px;
+}
+  
