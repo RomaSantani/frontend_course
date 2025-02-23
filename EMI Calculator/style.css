@@ -1,0 +1,14 @@
+.place_center{
+    display: flex;
+    justify-content: center; /* Align horizontally */
+    align-items: center; 
+}
+.padding_t{
+    padding-top: 48px;
+}
+.container {
+    display: flex;
+    justify-content: center;  /* Horizontal centering */
+    align-items: center;      /* Vertical centering */
+    height: 20vh;            /* Full viewport height */
+}
