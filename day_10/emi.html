@@ -13,29 +13,29 @@
 
 <body>
     <div class="place_center">
-        <form>
+        <form id="emi_form" onsubmit="calculateResult(event)" onreset="resetResult(event)">
             <div>
-                <label for="loanAmount" class="form-label">Enter the amount: </label>
-                <input id="loanAmount" class="form-control" />
+                <label onmouseover="hover()" onmouseout="hoverout()" id="amount-label" for="loanAmount" class="form-label">Enter the amount: </label>
+                <input id="loanAmount" class="form-control" value="5000000"/>
             </div>
             <div>
                 <label for="interestRate" class="form-label">Enter interest Rate: </label>
-                <input id="interestRate" class="form-control" />
+                <input id="interestRate" class="form-control" value="9"/>
             </div>
             <div>
                 <label for="loanTenure" class="form-label">Enter Loan Tenure: </label>
-                <input id="loanTenure" class="form-control" />
+                <input id="loanTenure" class="form-control" value="20"/>
+            </div>
+            <div class="container">
+                <input type="submit" value="CalculateEMI" class="btn btn-primary"/>
+                <input type="reset" class="btn btn-secondary reset_space"/>
+            </div>
+            <div class="place_center padding_t">
+                <span class="result_style">Your monthly EMI is :&nbsp;</span>
+                <output for="loanAmount interestRate loanTenure" id="result" class="result_style">44986</output>
             </div>
 
         </form>
-    </div>
-    
-    <div class="container">
-        <button onclick="calculateResult()" style="font-style: italic; font-weight: bold; color: chocolate;">Calculate EMI</button>
-    </div>
-    <div class="place_center padding_t">
-        <span style="color: rgb(0, 255, 89); font-style: italic; font-size: 48px;">Your monthly EMI is : </span>
-        <span id="result"></span>
     </div>
     <script src="emi.js"></script>
 

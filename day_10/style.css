@@ -12,3 +12,11 @@
     align-items: center;      /* Vertical centering */
     height: 20vh;            /* Full viewport height */
 }
+.result_style{
+    color: rgb(0, 255, 89);
+     font-style: italic; 
+     font-size: 48px;
+}
+.reset_space{
+    margin-left: 20px;
+}

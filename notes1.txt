@@ -20,3 +20,13 @@ How to include js in html file
 How to call function using onclick = "myfunction()"
 How to call function with parameter using onclick = "myfunction(includes parameters)"
 How to convert string to number using "Number(num1)"
+
+(23.FEB.2025) EMI CALCULATOR USING HTML/CSS/JS
+Buttons should always be in the form for form submit. 
+onsubmit event is used when submitting the form. eg: onsubmit=myfunction(event)
+onreset event is used to reset the form. eg: onreset=myfunction(event)
+onclick event is used to click button eg: onclick=myfunction()
+onmouseover is used when you want to use hovering on element.  eg: onmouseover = myfunction()
+onmouseout is used when you want to hover out from elemnt. eg: onmouseout = myfunction()
+use console.log(event) to see event details. And use event.target to fetch the value. 
+ 
