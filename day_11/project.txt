@@ -1,0 +1,24 @@
+Design a BMI calculator for men and women. 
+BMI is body mass index 
+It is calculated by weight in kgs/height in (meter)2.
+BMI= W / (H)2
+BMI = weight (kg) / (height (m) * height (m))
+
+Ask user 2 fields 
+1. height in cm 
+2. weight in kgs
+
+BMI Categories:
+1. Underweight (BMI<18.5)
+2. NormalWeight (BMI>=18.5 and BMI<25)
+3. Overweight (BMI>=25 and BMI<30)
+4. Obesity (BMI>=30)
+
+After calculation show result using output as 
+Your BMI category is : (category name) and BMI Value  [It's color should always be changed based on category]
+When Underweight use style color yellow
+When NormalWeight use style color green 
+When Overweight use style color orange
+when Obesity use style color red
+
+
