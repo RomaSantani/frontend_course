@@ -13,15 +13,15 @@
 
 <body>
     <div class="form-center">
-        <form onsubmit="calculateBmi(event)">
+        <form onsubmit="calculateBmiResult(event)">
             <div>
-                <label for="height" class="form-label">Enter your Height in cm: &nbsp; </label>
-                <input id="height" class="form-control input-width" />
+                <label for="height" class="form-label" >Enter your Height in cm: &nbsp; </label>
+                <input id="height" class="form-control input-width" type="number" />
             </div>
 
             <div>
                 <label for="weight" class="form-label">Enter your weight in kgs: &nbsp;</label>
-                <input id="weight" class="form-control input-width" />
+                <input id="weight" class="form-control input-width" type="number" />
             </div>
 
             <div class="btn-padding">
@@ -43,7 +43,7 @@
         <span>Your BMI category is: &nbsp;</span>
         <output id="bmiCategory"></output>
     </div>
-    <script src="bmi.js"></script>
+    <script src="bmi-new.js"></script>
 </body>
 
 </html>

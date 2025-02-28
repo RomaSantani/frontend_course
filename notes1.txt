@@ -29,4 +29,13 @@ onclick event is used to click button eg: onclick=myfunction()
 onmouseover is used when you want to use hovering on element.  eg: onmouseover = myfunction()
 onmouseout is used when you want to hover out from elemnt. eg: onmouseout = myfunction()
 use console.log(event) to see event details. And use event.target to fetch the value. 
- 
+
+(28.FEB.2025) HTML, CSS, JS 
+How to create functions
+Debugging inside chrome
+For loop 
+List type : ["a","b","c"....]
+How to use fruits.length ... const fruits = ["orange", "apple","mango","guava"]
+Fruits.length is 4 . 
+Index starts from 0. Eg: if we have to print "apple" we will do console.log(fruits[1])
+
