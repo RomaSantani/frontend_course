@@ -39,3 +39,11 @@ How to use fruits.length ... const fruits = ["orange", "apple","mango","guava"]
 Fruits.length is 4 . 
 Index starts from 0. Eg: if we have to print "apple" we will do console.log(fruits[1])
 
+(1.MARCH.2025) JS 
+JSON contains Key:Value pair
+create element using js document.createElement
+setting attribute using js element.setAttribute
+It includes 2 parameters: 1. attribute name  : src, class, height, style, id
+                          2. attribute value : ......
+appending children of element. element.appendChild()
+
