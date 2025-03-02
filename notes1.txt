@@ -47,3 +47,27 @@ It includes 2 parameters: 1. attribute name  : src, class, height, style, id
                           2. attribute value : ......
 appending children of element. element.appendChild()
 
+(2.MARCH.2025) JS
+REST API- Representational State Transfer 
+METHODS: GET, PUT, POST, DELETE
+Returns json (Java Script Object Notation)
+
+GET: Getting the Data
+POST: Creating new Data
+PUT: Updating existing data
+DELETE: deleting data 
+
+Using fetch API
+checking method for console. Network>
+fetch API has 2 parameters : first is url,
+                            second is {
+                                method :"",
+                                headers :{
+                                    'C-T':'A/json'
+                                } 
+                            } 
+.then is used for chaining. 
+response.json() is returned first. 
+.then is useed second time for processing data. 
+Arrow function (=>)
+
