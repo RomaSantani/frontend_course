@@ -71,3 +71,9 @@ response.json() is returned first.
 .then is useed second time for processing data. 
 Arrow function (=>)
 
+4.MARCH.2025 JS
+Authentication using headers
+Arrow function and normal functions
+How to use normal function in place of arrow function
+Passing paratemeter to funcion. eg: getNews(subject)
+                                getNews("politics India");
