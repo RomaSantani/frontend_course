@@ -1,0 +1,15 @@
+.place-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.search-btn-padding{
+    padding-top: 24px;
+}
+
+.card-wd{
+    height: 50%;
+    width: 20%;
+}

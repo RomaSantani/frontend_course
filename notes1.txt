@@ -77,3 +77,6 @@ Arrow function and normal functions
 How to use normal function in place of arrow function
 Passing paratemeter to funcion. eg: getNews(subject)
                                 getNews("politics India");
+
+
+
