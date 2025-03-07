@@ -10,7 +10,7 @@ function searchNews(searchTerm) {
             method: "GET",
             headers: {
                 'Content-Type': 'application/json',
-                'X-Api-Key':
+                'X-Api-Key': ''
             }
         }
     ).then(response=>{
@@ -27,8 +27,11 @@ function searchNews(searchTerm) {
             const description = articles[i]["description"];
             const url = articles[i]["urlToImage"];
 
+            //const colDiv = document.createElement("div");
+            //colDiv.setAttribute("class","col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2");
+            
             const cardDiv = document.createElement("div");
-            cardDiv.setAttribute("class","card card-wd");
+            cardDiv.setAttribute("class","card col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2");
 
             const imageElement =  document.createElement("img");
             imageElement.setAttribute("src", url);
@@ -52,8 +55,10 @@ function searchNews(searchTerm) {
             cardDiv.appendChild(imageElement);
             cardDiv.appendChild(cardBody);
 
-            const allNewsDiv=document.getElementById("all-news");
-            allNewsDiv.appendChild(cardDiv);
+            //colDiv.appendChild(cardDiv);
+
+            const allNews=document.getElementById("all-news");
+            allNews.appendChild(cardDiv);
         }
     })
 }
