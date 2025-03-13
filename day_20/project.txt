@@ -1,0 +1,7 @@
+Search Box with Movie name (Search your movie here)
+Search button on click of which card will be shown 
+Card will contain movie Title , description and picture
+in description , also show actor name IN BOLD. 
+In title , show badge component which will show IMDB rating 
+
+---

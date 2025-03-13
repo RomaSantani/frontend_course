@@ -78,5 +78,11 @@ How to use normal function in place of arrow function
 Passing paratemeter to funcion. eg: getNews(subject)
                                 getNews("politics India");
 
-
+9.MARCH.2025 WEATHER APP 
+Adding eventListener.  eg: formElement.addEventListener("submit" , functionName);
+Bootstrap Grid System . Screen is divided into 12 parts . Screen types include : xs,sm,md,l,xl,xxl. 
+Radio button has checked element set to "TRUE" when it is selected on "formSubmit".
+IF does not require === , when the value inside is "TRUE" / "FALSE"
+textContent is an attribute , which is set using "=". 
+ eg: tempElement.textContent = "Temperature is : " + data["current"]["temperature"];
 

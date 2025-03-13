@@ -1,0 +1,13 @@
+.city-label{
+    font-style: italic;
+    color:cornflowerblue;
+}
+
+.form-padding{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.btn-margin{
+    margin-top: 20px;
+}
