@@ -86,3 +86,12 @@ IF does not require === , when the value inside is "TRUE" / "FALSE"
 textContent is an attribute , which is set using "=". 
  eg: tempElement.textContent = "Temperature is : " + data["current"]["temperature"];
 
+
+14.MARCH.2025 COCKTAILS APP
+While loop
+bulma CSS
+How to clear search
+const parentDiv = document.getElementById("parent")
+while(parentDiv.firstChild){
+    parentDiv.removeChild(parentDiv.firstChild);
+}

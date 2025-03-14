@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <title>COCKTAILS</title>
+</head>
+
+<body>
+    <div>
+        <form onsubmit="searchCocktails(event)">
+            <input type="text" class="input" placeholder="Search Drink here" id="drinkInput" />
+            <input type="submit" class="button is-primary" value="Search" />
+            <input type="button" class="button is-secondary" value="Clear" onclick="clearSearch(true)"/>
+        </form>
+    </div>
+
+
+
+    <div id="results">
+    </div>
+    <script src="cocktail.js"></script>
+
+</body>
+
+</html>
