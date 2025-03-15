@@ -1,0 +1,19 @@
+15.MARCH.2025 (ANGULAR)
+
+npm install -g @angular/cli -- for global installation
+Package.json includes dependencies , devDependencies, scripts 
+for running scripts ---> npm run "script_name"
+npm install bootstrap
+add bootstrap in angular.json under styles (scss) and scripts (js).
+selector matches tag name in html. 
+template url tells which HTML file is to be used. 
+style url tell which CSS file is to be used. 
+To use a variable in HTML , use {{variable name}}
+filename.spec.ts are test files. 
+package-lock locks the dependencies and versions. 
+To unlock it, delete package-lock.json and run npm install again. 
+version includes : major.minor.patch 
+if it involves ^ carrot operator in the beiginning.. that means any updates in minor and patch are allowed , but major updates are not accepted. 
+
+if it involves ~ tilde operator in the beiginning.. that means any updates in patch are allowed , but minor and major updates are not accepted. 
+
